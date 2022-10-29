@@ -1,0 +1,20 @@
+app:
+  datasource-camunda:
+    jdbcUrl: jdbc:h2:mem:testdb
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
+
+
+
+logging:
+  level:
+      org:
+        camunda:
+              bpm : debug
+
+spring:
+  h2:
+    console:
+      enabled: true
